@@ -1,79 +1,80 @@
-# Walmart Sales Analysis using SQL and Python
+**Overview**
 
-## Project Overview
-This project analyzes Walmart sales data using SQL and Python to identify sales trends, customer behavior, payment preferences, and product performance.
+This project analyzes retail sales transactions using SQL, Python, Pandas, Matplotlib, and Seaborn to uncover customer purchasing behavior, payment preferences, and product performance trends. The goal was to derive meaningful business insights from transaction data and understand the major factors influencing sales performance.
 
-The project includes:
-- Data cleaning using Excel
-- SQL business analysis queries
-- Exploratory Data Analysis (EDA) using Python
-- Data visualization using matplotlib and seaborn
-- Business insights and recommendations
+**Business Problem**
 
----
+Retail businesses generate large volumes of transaction data, but without proper analysis it is difficult to understand which payment methods, products, and customer behaviors drive revenue. This project focused on uncovering sales patterns and highlighting the factors contributing most to overall business performance.
 
-# Tools & Technologies Used
+**Objectives**
 
-- SQL (MySQL)
-- Python
-- pandas
-- matplotlib
-- seaborn
-- Excel
-- Google Colab
+1.Analyze sales transactions to understand customer buying behavior
 
----
+2.Identify the most used payment methods and high-performing products
 
-# Project Workflow
+3.Explore sales patterns across transaction-level data
 
-## 1. Data Cleaning
-- Removed duplicate records
-- Handled datatype issues
-- Cleaned currency formatting issues
+4.Generate business insights for sales performance monitoring
 
-## 2. SQL Analysis
-Performed business analysis queries such as:
-- Top performing cities
-- Payment method analysis
-- Product category analysis
-- Branch performance analysis
+**Tools Used**
 
-## 3. Python EDA
-Created:
-- Sales visualizations
-- Ratings distribution
-- Payment method charts
-- Correlation heatmap
-- Category analysis
+SQL, 
+Python, 
+Pandas, 
+Matplotlib, 
+Seaborn
 
-## 4. Business Insights
-Generated insights and recommendations based on sales trends and customer behavior.
+**Dataset Details**
 
----
+1.Records analyzed: 10,000+ retail sales records
 
-# Key Insights
+2.Key fields used:
 
-- Certain cities generated significantly higher sales.
-- Customer ratings were mostly positive.
-- Some product categories showed higher demand.
-- Payment methods revealed customer transaction preferences.
-- Total sales were strongly influenced by unit price and quantity purchased.
+Transaction ID, 
+Product Category, 
+Quantity, 
+Total Amount, 
+Payment Method, 
+Customer / transaction attributes
 
----
+**Steps Performed**
 
-# Project Structure
+1.Queried and analyzed sales data using SQL
 
-Walmart-Sales-Analysis/
-│
-├── dataset/
-├── notebooks/
-├── screenshots/
-├── sql_queries.sql
-├── business_insights.md
-├── README.md
+2.Cleaned and transformed raw data in Python using Pandas
 
----
+3.Performed exploratory data analysis (EDA) to study:
 
-# Author
+payment method usage, 
+product performance,
+transaction behavior,
+customer purchasing patterns,
+Built visualizations using Matplotlib and Seaborn to present findings clearly
+
+**Key Insights**
+
+1.Credit Card was identified as the dominant payment method, contributing 42.6% of transactions 
+
+2.Sales analysis highlighted the transaction and product trends contributing most to revenue
+
+3.Customer purchasing behavior patterns helped improve visibility into business performance drivers
+
+**Output**
+
+The project produced analytical reports and visual insights showing:
+
+1.payment method distribution
+
+2.product performance trends
+
+3.sales contribution patterns
+
+4.transaction-level behavior analysis
+
+**Conclusion**
+
+This project demonstrates how SQL and Python can be used together to clean, analyze, and visualize retail sales data, turning raw transaction records into actionable insights for sales monitoring and business decision-making.
+
+**Author**
 
 Pulavarthi Dharani Ananya
